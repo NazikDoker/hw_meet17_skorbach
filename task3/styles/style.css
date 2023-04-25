@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.prices-wrap {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  gap: 15px;
+  transition: all 1s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.h-line {
+  width: 100%;
+  height: 3px;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.time-action {
+  font-size: 18px;
+  color: #D0CECF;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.color-1 {
+  background-color: #C63651;
+}
+.color-2 {
+  background-color: #D7913B;
+}
+.color-3 {
+  background-color: #2B6688;
+}
+.color-4 {
+  background-color: #63BB34;
+}
